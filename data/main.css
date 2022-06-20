@@ -1,0 +1,50 @@
+center {
+    width: 420px;
+    max-width: 100%;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+header {
+    background-color: #5a3a68;
+    color: white;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 1px 1px 5px #555555;
+    position: relative;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+
+center>div {
+    padding: 24px 10px 10px 10px;
+    box-shadow: 1px 1px 5px #555555;
+}
+input {
+    margin: .4rem;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
